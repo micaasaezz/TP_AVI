@@ -11,7 +11,7 @@ import utilidades.UConexion;
 public class Program {
 	public static void main(String[] args) {
 		try {
-			Persona p = new Persona("Matias", "Gueri", "9999999", new Integer(28));
+			Persona p = new Persona("Marcos", "Gueri", "9999999", new Integer(28));
 
 			UConexion uc = UConexion.getInstance();
 			Consultas.setConnection(uc.connectBD()); 
